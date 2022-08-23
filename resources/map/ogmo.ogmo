@@ -1,0 +1,247 @@
+{
+  "name": "SkyEastCave",
+  "ogmoVersion": "3.4.0",
+  "levelPaths": ["."],
+  "backgroundColor": "#282c34ff",
+  "gridColor": "#3c4049cc",
+  "anglesRadians": false,
+  "directoryDepth": 5,
+  "layerGridDefaultSize": {"x": 8, "y": 8},
+  "levelDefaultSize": {"x": 320, "y": 240},
+  "levelMinSize": {"x": 128, "y": 128},
+  "levelMaxSize": {"x": 4096, "y": 4096},
+  "levelValues": [],
+  "defaultExportMode": ".json",
+  "compactExport": false,
+  "externalScript": "",
+  "playCommand": "",
+  "entityTags": [],
+  "layers": [
+    {
+      "definition": "entity",
+      "name": "entities",
+      "gridSize": {"x": 8, "y": 8},
+      "exportID": "54556790",
+      "requiredTags": [],
+      "excludedTags": []
+    },
+    {
+      "definition": "tile",
+      "name": "collider",
+      "gridSize": {"x": 4, "y": 4},
+      "exportID": "78610967",
+      "exportMode": 0,
+      "arrayMode": 0,
+      "defaultTileset": "collider"
+    },
+    {
+      "definition": "tile",
+      "name": "ground",
+      "gridSize": {"x": 8, "y": 8},
+      "exportID": "54169320",
+      "exportMode": 0,
+      "arrayMode": 0,
+      "defaultTileset": "ground"
+    },
+    {
+      "definition": "tile",
+      "name": "ground_bg",
+      "gridSize": {"x": 8, "y": 8},
+      "exportID": "93697783",
+      "exportMode": 0,
+      "arrayMode": 0,
+      "defaultTileset": "ground_bg"
+    }
+  ],
+  "entities": [
+    {
+      "exportID": "54556229",
+      "name": "level_changer",
+      "limit": -1,
+      "size": {"x": 8, "y": 8},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ff0000ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 8, "y": 8},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": true,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [
+        {"name": "level_name", "definition": "String", "display": 1, "defaults": "", "maxLength": 0, "trimWhitespace": true}
+      ]
+    },
+    {
+      "exportID": "57224472",
+      "name": "player_spawn",
+      "limit": -1,
+      "size": {"x": 8, "y": 8},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ffe800ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 8, "y": 8},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": []
+    },
+    {
+      "exportID": "92620001",
+      "name": "jump_platform",
+      "limit": -1,
+      "size": {"x": 8, "y": 8},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#00ffffff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 8, "y": 8},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": []
+    },
+    {
+      "exportID": "92643050",
+      "name": "dash_crystal",
+      "limit": -1,
+      "size": {"x": 8, "y": 8},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#04ff00ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 8, "y": 8},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": []
+    },
+    {
+      "exportID": "21593134",
+      "name": "fruit",
+      "limit": -1,
+      "size": {"x": 8, "y": 8},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ffa300ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 8, "y": 8},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [],
+      "texture": "../images/fruit.png",
+      "textureImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAF9JREFUGJVjYMAO/kMxAyOaIAMDAwOD5yoBBgYGBobtYR/gCv4nLoLIv+AQhEsyMDAwMiFLwoDEj/cMULH/TDBBQ0OEJDKAKzh/HqEIGWC4AQbmxzEyMDAwMGL1BbJmAKEpHWo9xAQ3AAAAAElFTkSuQmCC"
+    }
+  ],
+  "tilesets": [
+    {"label": "ground", "path": "../images/map.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABQCAYAAACpv3NFAAAAAXNSR0IArs4c6QAABRtJREFUeJztWjty4zAMBT0pcoD4MC5SpE2hu2ypE6jMXVikTbGFD0MdIB23sKjAEEDwI5NONm/GYwsgQRIkfrQMXOCXb4N+Y3B0qS1tg+VrfE1mLt9IDa86jOMIAADTNME4jvD6OV01en6Dlf7+yLcNdNz3+e3y/fePzg/P4bfUPpWP5EeVYADAY6F08RJdaotBF5jLT5lHwvhRBRzwgySco2sTCTtUyk+dhyQ7ZfEARAE3ggk73QqvnxfzBN1HlSsgtoPvjyNM0wRATEzgZ8lO4ecgWwHvjyNeAAttBzR+TDY3dpgTVkyqubA7FKAc3TXklDo5ZKe5ITYlBId2URwA1CNlhE/SAAXAi9PG1j4qWjhBDf7vn8spCWYRniFtl6twAAAzTdPmFOzpaFKBfEMzHGDROHUaMS+tQYvDMX7INlPjeC1EE8g5gvS0vH5OV/0V/iZPyInjtbgbH0DDWCvsoQDWh2Twrwosrsi5JdZyVKoCQbdDNY/IyAOyy9laiE4Q7ZhHH/q8l41K8f3meIgx6al4frsunQHaHdVbQVQAt7BxHAEW+ndfeECWE9yrHm8Z5zXcJAzWVoMtwSqgZT3eG6wCWtTj9+JDpGvrvetx7Vq8G1Lv5Yv/Fxhf6ux8+khSUrGCHwDAjy/rYOtvMokNHdOmDwCpnzaBHeDHF34Oy/jp1+LCIiAMQGm4X+Djdjko7YfnUCLrwHXAz0EwXbA0AY7HgY5ZugBOJt2wGA5cB2kRMUWl0DFiC05VYkxmqozVBGIdsGalASl96ZPk5UsXvMCkbgyHTR7AdZZ8g/SMfMTGCXK+QvqdCM+d4NQNMAC8598DUnTAfAC1jXofoZhsehT4Ccg9QasCKo+h2o8zmfGFD7E1Y+PcBBJNAGBnM8C5Q63cEhMguYtqAhsnUovY4NQJ7rH7tH+O0jdhcI/jH4sCNGEqid3S+CX9N06wZRKyEwxdfFEesIcJ7GlGGajKAy5/jn7Um0AYuBeELFWtRq/KYU5QLRYvrt0xxO4bvMAPbaqQZQJaG4HvQ7wH+Ir9hL7+1vhUhjR2jgmsQjVobWJmRM1Muk/Q+FzI5pxgqgmsR0uaXEp4EW5jVvlaPVBqdlrcT64FYj4gxTlKmRiQHdAqzVozLEmqxHJYuqSIXX1JO8LRuclKV2vcZU1MmTmnik2EYgIiF5DRPrG2nL3HfIQkU+LFsBZDDD3mQDR+b/mUXz1QDapj9S2x/j3OvbOfC9y39QvSpTCAXnHZ6S/rveXdFKsT3HGyzV+Pr0XIt7+L3N1xy0l+CwX84hcdYa31zrluphJ9T/CWcM758/l89fz09AQAAMaYZqGzqQK89x4AYJ7nlTYMQ/88IUwslUdp2vM9g/1vsOUCrLXeWtvXB+AjScHx5nkG55w/Ho9GaoP5HPCiT6fTqvSW9g8AcKAe2FrrwwK5DoGOHRimO+f8PM8bfoBfcDqdruhmQfFKCvHATRTTzuczWGt9cFa0vbXW0/YxhEUGhfV2ggbg6ziGyeDjOQyDSeVLz7EJWGvX09AtDNLjSGmn0wmwPQde2O1hGAw2GcoPoGEw8GO+ohmozeNIwPkD59xVBsf11zK8nt5/g1gs/8m5gPiOUCs7vJtaILZgjkdp2jPFvdQCTd8SCzkA3fGgiB65QBfvi3e/dx7QHb0jQbf7AICvxQeT+K98APUDx+PR9PAB3eCc61oG3w3uJg9oDZoH4Mzxx/sAmiafz2eY5/k3D+iBf6CEvlXJkZz0AAAAAElFTkSuQmCC", "tileWidth": 8, "tileHeight": 8, "tileSeparationX": 0, "tileSeparationY": 0, "tileMarginX": 0, "tileMarginY": 0},
+    {"label": "collider", "path": "../images/collider.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAALBJREFUOI1jnHT5/38GJJCry4jMZSj67IjCr3pwH4XPgGzApMv///9nYIDz/zMw/C/87AjnF352/P/6sgKc//qywn8mBgoBC7orYDYj85FdAbMZxmYMbELVvAjNix8CUfmufrtRBZANCGz6//9zIoL/OfH//8ebEPzHm/7/12DYBedrMOyiUhigewPZFTCbkfnIrmBMFFiEIjn/QxxqQiAEkA1AN4wYQJ0wIMfmUYAAAJRPXHUI0mZ8AAAAAElFTkSuQmCC", "tileWidth": 4, "tileHeight": 4, "tileSeparationX": 0, "tileSeparationY": 0, "tileMarginX": 0, "tileMarginY": 0},
+    {"label": "ground_bg", "path": "../images/map_bg.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAALpJREFUeJzt1LENwjAQBVAHsRQSs1BSMAIDMAIFZWZBYgiGCWWkCBJbOWNFeq9KEZ3vfs7phnc/pK15ncbnQ7+q1D7npet5PPD2mBwY0MzzPtY4XhZqBA6fUkpd7gZEhDA3aFEIgbIDKPIlkLUD1gooPoDgFU2p7nYUBTB7DTaqeAN+hbD4lTI3o/YPdyrkCvxl+MJauer8BDdk17qB1gTQuoHWBNC6gdYE0LoBAAAAAAAAAAAAAACAaB9n81nz2mzPhQAAAABJRU5ErkJggg==", "tileWidth": 8, "tileHeight": 8, "tileSeparationX": 0, "tileSeparationY": 0, "tileMarginX": 0, "tileMarginY": 0}
+  ]
+}

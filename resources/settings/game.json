@@ -1,0 +1,11 @@
+{
+    "general": {
+        "name": "East Sky Cave",
+        "screenWidth": 960,
+        "screenHeight": 720,
+        "zoom": 6
+    },
+    "gameplay": {
+        "initialLevel": "level_01"
+    }
+}

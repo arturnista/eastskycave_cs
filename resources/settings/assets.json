@@ -1,0 +1,47 @@
+{
+    "images": {
+        "player": {
+            "isSheet": true,
+            "src": "./resources/images/player.png",
+            "width": 8,
+            "height": 8
+        },
+        "items": {
+            "isSheet": true,
+            "src": "./resources/images/items.png",
+            "width": 8,
+            "height": 8
+        },
+        "map": {
+            "isSheet": true,
+            "src": "./resources/images/map.png",
+            "width": 8,
+            "height": 8
+        },
+        "map_bg": {
+            "isSheet": true,
+            "src": "./resources/images/map_bg.png",
+            "width": 8,
+            "height": 8
+        },
+        "stones": {
+            "isSheet": false,
+            "src": "./resources/images/stones.png"
+        },
+        "stone_dmg": {
+            "isSheet": false,
+            "src": "./resources/images/stone_dmg.png"
+        },
+        "fruit": {
+            "isSheet": false,
+            "src": "./resources/images/fruit.png"
+        }
+    },
+    "levels": {
+        "level_01": "./resources/map/levels/level_01.json",
+        "level_02": "./resources/map/levels/level_02.json",
+        "level_03": "./resources/map/levels/level_03.json",
+        "level_04": "./resources/map/levels/level_04.json",
+        "level_05": "./resources/map/levels/level_05.json"
+    }
+}
